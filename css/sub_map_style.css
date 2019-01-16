@@ -1,0 +1,87 @@
+@charset:"utf-8";
+
+.mainBanner{
+    background:#bdbdbd;
+    padding:20px;
+    margin:15px;
+    border-radius:25px;
+}
+.mainBanner h1{
+    color:#0b87c9;
+    font-size:20px;
+    line-height: 32px;
+}
+.mainBanner h1:before{
+    content:"";
+    display: block;
+    width:10px;
+    height: 10px;
+    background:#0b87c9;
+}
+.mainBanner p{
+    font-size:15px;
+    color:#747474;
+    margin-top:15px;
+}
+
+/*banner01 & map*/
+.map{
+    margin:15px;
+}
+.map iframe{
+    width:100%;
+}
+/*banner01 & map*/
+
+/*banner02 & map_info*/
+.map_info{
+    padding:10px 30px;
+}
+.map_info ul{}
+.map_info ul li{
+    margin:25px 0;
+}
+.map_info ul li img{
+    width:25px;
+    height: 25px;
+    display:inline-block;
+    margin-right:10px;
+    vertical-align: middle;
+}
+.map_info ul li p{
+    margin:10px 0;
+    font-size:13px;
+}
+.map_info ul li span{
+    display:inline-block;
+    font-size:13px;
+    vertical-align: middle;
+}
+/*banner02 & map_info*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

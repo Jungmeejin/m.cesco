@@ -1,0 +1,318 @@
+@charset:"utf-8";
+
+/*mainSlider*/
+.mainSlider{
+    width:100%;
+    overflow: hidden;
+}
+.sliderImg{}
+.sliderImg img{
+    width:100%;
+    display: block;
+}
+.slick-list{
+    margin:25px;
+}
+
+/*sliderBtn*/
+.slick-dots{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.slick-dots li{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background:#555;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.slick-dots li.slick-active{
+    background:#f15d24;
+}
+.slick-dots button{
+    border: 0;
+    font-size: 0;
+    padding: 0;
+}
+.slick-slide img{
+    width: 100%;
+    margin: 0 auto;
+}
+/*sliderBtn*/
+/*mainSlider*/
+
+
+/*banner01 & hotIssue*/
+.hotIssue{
+    margin:25px;
+}
+.issueTit{
+    background:#1e87c9;
+    width:100%;
+}
+.issueTit h4{
+    padding: 20px 0;
+    text-align: center;
+}
+.issueTit h4 span{
+    background:#89361d;
+    font-weight: bold;
+    color:#fff;
+    padding:0 3px;
+}
+
+.issueCon{
+    background:#c6c5c5;
+    width:100%;
+    text-align: center;
+    overflow: hidden;
+    padding:0 25px;
+    box-sizing:border-box;
+}
+.issueCon h3{
+    padding:10px 0;
+    padding-top:20px;
+    font-weight: normal;
+    font-size:15px;
+}
+.issueCon h3 span{
+    border-bottom: 1px solid #ed2024;
+}
+.airCondi{
+    padding:10px 0;
+}
+.airCondi img{
+    width:100%;
+}
+.issueCon p{
+    line-height: 25px;
+    font-size:13px;
+}
+.Rn_Btn{
+    background:#1f3b6f;
+    margin:20px 1%;
+    padding:15px 0;
+    line-height: 20px;
+}
+.Rn_Btn a{
+    color:#fff;
+    font-size:14px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+/*banner01 & hotIssue*/
+
+/*banner02 & consult*/
+.consult{
+    background:#51677a;
+    padding: 20px 30px;
+    text-align: center;
+}
+.consult_Box{
+    background:url(../images/main_images/consult_box.png) no-repeat;
+    width:100%;
+    height: 50px;
+    background-size: 100% 100%;
+    background-position:center center;
+    margin:20px 0;
+}
+.consult_Box a{
+    line-height: 50px;
+    display:block;
+    font-weight: bold;
+}
+/*banner02 & consult*/
+
+/*banner03 & iconBox*/
+.iconBox{
+    padding:25px;
+}
+
+.box00{
+    overflow: hidden;
+    width:100%;
+    padding:10px;
+    margin:10px;
+    box-sizing:border-box;
+}
+.box00 a{
+    display:inline-block;
+    font-size:0;
+    width:100%;
+    height: 100%;
+}
+.imgB{
+    float:left;
+    margin:0 10%;
+    width:35%;
+    height:auto;
+}
+.box00 a img{
+    width:100%;
+}
+.box00 a p{
+    float:left;
+    padding:16px 9%;
+    width:65px;
+    text-align: center;
+    font-size:14px;
+}
+.box00 a p.one_line{
+    padding-top:26px;
+}
+
+.visit_Box, .shop_Box, .need_Box{
+    border: 1px solid #222;
+    position:relative;
+    margin-bottom:20px;
+}
+.visit_Box h4{
+    font-family: "seoulhangangregular";
+    position:absolute;
+    left:-20px;
+    top:50%;
+    margin-top:-79px;
+    text-align: center;
+    padding:3px;
+    writing-mode:tb-rl;
+    background:#fff;
+    font-size:18px;
+}
+.shop_Box ul{
+    font-family: "seoulhangangregular";
+    font-weight: bold;
+    padding:3px;
+    position:absolute;
+    left:-9px;
+    top:50%;
+    margin-top:-36px;
+    background:#fff;
+    font-size:18px;
+}
+.need_Box h4{
+    font-family: "seoulhangangregular";
+    height: 280px;
+    position: absolute;
+    left:-20px;
+    top:50%;
+    margin-top:-143px;
+    text-align: center;
+    padding: 3px;
+    background: #fff;
+    writing-mode:tb-rl;
+    font-size:18px;
+}
+
+/*banner03 & iconBox*/
+
+/*banner04 & analysis*/
+.analysis{
+    background:#d3d7dc;
+    padding:10px;
+}
+.kolas_img{
+    width:216px;
+    height:126px;
+    padding:25px 0;
+    margin:0 auto;
+}
+.kolas_img img{
+    display:block;
+    width:100%;
+}
+
+.analy_txt{
+    text-align: center;
+}
+.analy_txt h3{}
+.analy_txt h3:after{
+    content:"";
+    display: block;
+    width:160px;
+    height: 1px;
+    background:#222;
+    margin:15px auto;
+}
+.analy_txt h4{
+    font-size:13px;
+    margin-bottom: 15px;
+}
+.analy_txt p{
+    color:#6d6d6d;
+    margin-bottom: 10px;
+}
+.analy_txt span{
+    color:#24418e;
+    font-weight: bold;
+    
+}
+.mar0auto{
+    margin:10px auto;
+}
+.analy_icon{
+    padding:20px 10%;
+    overflow: hidden;
+}
+.analy_icon_img{
+    float:left;
+    width:60px;
+    height: 60px;
+    padding:3%;
+}
+.analy_icon_img img{
+    display: block;
+    width: 100%;
+}
+.icon_txt{
+    float:left;
+    padding:5px 3%;
+}
+.analy_icon h4{
+    font-size: 15px;
+}
+.analy_icon span{
+    width:100px;
+    height: 1px;
+    margin:10px 0;
+    background:#ed2024;
+    display: block;
+}
+.analy_icon p{
+    font-size: 14px;
+    letter-spacing: -1px;
+    width:100%;
+}
+
+.analy_btn{
+    margin:25px 5%;
+    background: #555;
+    text-align: center;
+}
+.analy_btn a{
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+    color:#fff;
+    padding:20px 0;
+}
+/*banner04 & analysis*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

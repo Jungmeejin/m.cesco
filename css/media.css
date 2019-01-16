@@ -1,0 +1,45 @@
+/*iPhone4:width:320px*/
+@media only screen and (max-width : 320px) { 
+    /*index*/
+    body{
+        width:100%;
+        min-width: auto;
+    }
+    #wrap{
+        width:100%;
+    }
+    .issueCon h3{
+        width:150px;
+        margin:0 auto;
+        line-height: 26px;
+    }
+    .analy_icon_img{
+        float:none;
+        margin:0 auto;    
+    }
+    .icon_txt{
+        text-align:center;
+        width:100%;
+        padding-top:10px;
+    }
+    .icon_txt span{
+        margin:10px auto;
+    }
+    /*index*/
+
+    /*sub_intro*/
+    .mission_box p{
+        margin-left:20px;
+    }
+    /*sub_intro*/
+    
+    /*sub_map*/
+    .mainBanner p{
+        font-size:13px;
+        margin-top:7px;
+    }
+    .map_info ul li p{
+        width:250px;
+    }
+    /*sub_map*/
+}

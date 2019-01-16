@@ -1,0 +1,106 @@
+@charset:"utf-8";
+
+.mainBanner{
+    background:#bdbdbd;
+    padding:20px;
+    margin:15px;
+    border-radius:5%;
+}
+.mainBanner h1{
+    color:#0b87c9;
+    font-size:20px;
+    line-height: 32px;
+}
+.mainBanner h1:before{
+    content:"";
+    display: block;
+    width:10px;
+    height: 10px;
+    background:#0b87c9;
+}
+.mainBanner p{
+    font-size:16px;
+    color:#747474;
+    margin-top:15px;
+    font-size:15px;
+}
+
+/*banner01 & solution*/
+.solution{
+    width:100%;
+    margin:10px auto;
+}
+.solution_box{
+    margin:20px 5%;
+    width:90%;
+    height: auto;
+}
+.solution_box a{
+    display: block;
+}
+.solution_box a img{
+    width:100%;
+    display: block;
+}
+/*banner01 & solution*/
+
+/*banner02 & mission*/
+.mission{
+    margin:30px;
+    margin-bottom: 50px;
+}
+.mission h2{
+    padding:10px;
+    padding-bottom:15px;
+}
+.mission h2:before{
+    content:"";
+    display: block;
+    width:10px;
+    height: 10px;
+    background: #222;
+}
+
+.mission_box{
+    position:relative;
+    margin-left:10px;
+    margin-bottom: 15px;
+}
+.iconIMG_box{
+    width:33px;
+    height: 42px;
+}
+.iconIMG_box img{
+    width: 100%;
+    display: block;
+}
+.mission_box h4{
+    position:absolute;
+    top:15px;
+    left:45px;
+    font-size:15px;
+}
+.mission_box p{
+    margin-left:45px;
+    margin-top:10px;
+    font-size:14px;
+}
+
+/*banner02 & mission*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

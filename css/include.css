@@ -1,0 +1,246 @@
+@charset:"utf-8";
+
+/*header*/
+#header{
+    background:#e1e1e1;
+    padding:10px 0 10px 20px;
+    position:relative;
+    width:auto;
+}
+.logo{
+    width:95px;
+    height: 43px;
+    background:url(../images/main_images/cesco_logo.png) no-repeat;
+    background-size:100% 100%;
+    background-position:center center;
+}
+.logo a{
+    display:block;
+    text-indent:-9999px;
+}
+
+/*panel*/
+#mySidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #363636;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 40px;
+    text-align: center;
+}
+#mySidenav a{
+    padding: 10px 10px;
+    font-size: 25px;
+    color: #c4c4c4;
+    display: block;
+    transition: 0.3s;
+}
+
+#mySidenav a img{
+    width:25px;
+    height: 20px;
+    display:block;
+}
+.sidenav .closeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#mySidenav .panel_box{
+    width:200px;
+    background:#a5a5a5;
+    margin:20px auto;
+    position:relative;
+}
+#mySidenav .panel_box a{
+    display:block;
+    height: 100%;
+    font-size:16px;
+    color:#363636;
+}
+#mySidenav .panel_box a img{
+    width:33px;
+    height: 33px;
+    position:absolute;
+    top:50%;
+    margin-top:-17px;
+    left:20px;
+}
+.panel{
+    position:absolute;
+    top:50%;
+    margin-top:-9px;
+    right:20px;
+}
+.panel a{
+    display:block;
+}
+.panel a:before, .panel a:after{
+    content:"";
+    width:25px;
+    height: 3px;
+    background:#0b87c9;
+    display:block;
+}
+.panel a span{
+    width:25px;
+    height: 3px;
+    background:#0b87c9;
+    text-indent:-9999px;
+    display:block;
+    margin:4px 0;
+}
+/*panel*/
+
+/*header*/
+
+/*nav*/
+#nav{
+    margin:5px 0;
+    margin-left:25px;
+}
+.nav00{
+    float:left;
+    font-size:0;
+}
+.nav00 a{
+    display:inline-block;
+}
+.nav00 a p{
+    font-size:12px;
+    display:inline-block;
+    color:#686868;
+    vertical-align: middle;
+}
+.nav00 span{
+    display:inline-block;
+    width:7px;
+    height: 7px;
+    margin:0 3px;
+    vertical-align: middle;
+}
+.nav00 span img{
+    width:100%;
+    display: block;
+    
+}
+/*nav*/
+
+/*banner05 & csCenter*/
+.csCenter{
+    margin:20px 5%;
+    border:2px solid #555;
+    padding:5px;
+}
+.csCenter a{
+    display: block;
+}
+.csC_txt{
+    text-align:center;
+    padding:10px;
+    border: 1px solid #999;
+}
+.csCenter a h2{
+    margin-bottom:5px;
+}
+.csCenter a p{
+    color:#777;
+    font-size:13px;
+}
+/*banner05 & csCenter*/
+
+#footer{
+    width:100%;
+}
+.footerMenu{
+    text-align: center;
+}
+.footerMenu div a{
+    display:block;
+    height:100%;
+    color:#fff;
+    font-size:13px;
+    padding:20px 0;
+    letter-spacing: 2px;
+}
+.f_menu01{
+    background: #0b87c9;
+    width:calc(100% / 3);
+    float:left;
+
+}
+.f_menu02{
+    background: #04547d;
+    width:calc(100% / 3);
+    float:left;
+
+}
+.f_menu03{
+    background: #02334a;
+    width:calc(100% / 3);
+    float:left;
+    
+}
+
+.footerBottom{
+    background: #535352;
+}
+.bottom_top{
+    text-align: center;
+    padding:15px 0;
+    font-size:0;
+}
+.bottom_top li{
+    display:inline-block;
+    margin: 2%;
+}
+.bottom_top li a{
+    font-size:13px;
+    color:#fff;
+    display: block;
+}
+
+.bottom_bottom{
+    padding:0 0 10px 5%;
+}
+.bottom_bottom li{
+    color:#fff;
+    padding:5px 0;
+    font-size:12px;
+}
+.bottom_bottom li:first-child{
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.footerBottom h5{
+    color:#fff;
+    font-size:16px;
+    text-align: center;
+    padding:10px 0 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

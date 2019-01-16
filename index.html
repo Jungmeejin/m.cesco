@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width"/> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <title>CESCO_mobile</title>
+    <link rel="stylesheet" type="text/css" href="font/font.css">
+    <link rel="stylesheet" type="text/css" href="css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/include.css"/>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
+    
+    
+    <!--script-->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.mainSlider').slick({
+                dots:true,
+                infinite:true,
+                slidesToShow:1,
+                slidesToScroll:1,
+                autoplay:true,
+                autoplaySpeed:2000,
+                arrows:false,
+            });
+            
+            $('.panel').click(function(){
+                $('#mySidenav').css({
+                    "width":"100%",
+                });
+            });
+            $('.panel_close').click(function(){
+                $('#mySidenav').css({
+                    "width":"0",
+                });
+            });
+            
+             $('.f_menu03').click(function(){
+                $('html, body').animate({
+                    scrollTop:0},
+                    400 );
+                return false;
+            });
+            
+        });
+        
+       
+        
+    </script>
+    
+    <!--script-->
+</head>
+    
+<body>
+<!--START-->
+<div id="wrap">
+    
+<!--header-->
+<header id="header">
+     <!--logo-->
+    <h1 class="logo"><a href="index.html">LOGO</a></h1>
+    <!--logo-->
+    
+    <!--panel-->
+    <div class="panel">
+        <a href="#">
+            <span>panel</span>
+        </a>
+    </div>
+    <div id="mySidenav" class="sidenav">
+        <div class="panel_close">
+            <a href="javascript:void(0)" class="closeBtn">
+                <img src="images/main_images/panel_X_icon.png">
+            </a>
+        </div>
+        <a href="sub/sub_intro.html">CESCO</a>
+        <a href="#">SHOP</a>
+        <a href="#">SERVICES</a>
+        <a href="#">SUPPORT</a>
+        <a href="#">MY CESCO</a>
+        <div class="panel_box">
+            <a href="#">
+                LOG IN
+            </a>
+        </div>
+        <div class="panel_box">
+            <a href="#">
+                SIGN UP
+            </a>
+        </div>
+    </div>
+    <!--panel-->
+</header>
+<!--header-->
+
+<!--container-->
+<div id="container">
+    
+    <!--mainSlider-->
+    <div class="mainSlider">
+        <div class="sliderImg">
+            <img src="images/main_images/mainBanner05.jpg"/>
+        </div>
+        <div class="sliderImg">
+            <img src="images/main_images/mainBanner04.jpg"/>
+        </div>
+        <div class="sliderImg">
+            <img src="images/main_images/mainBanner03.jpg"/>
+        </div>
+        <div class="sliderImg">
+            <img src="images/main_images/mainBanner02.jpg"/>
+        </div>
+        <div class="sliderImg">
+            <img src="images/main_images/mainBanner01.jpg"/>
+        </div>
+    </div>
+    
+    <!--sliderBtn-->
+
+    <!--sliderBtn-->
+    <!--mainSlider-->
+    
+    <!--banner01 & hotIssue-->
+    <div class="hotIssue">
+        <div class="issueTit">
+            <h4>세스코의 <span>HOT ISSUE</span>를  확인하세요</h4>
+        </div>
+        <div class="issueCon">
+            <h3>7일동안 <span>라돈 방사능</span>을 측정해드립니다.</h3>
+            <div class="airCondi">
+                <img src="images/main_images/cescoAirconditional_img.png"/>
+            </div>
+            <p>세스코 Air 공기질연구소 라돈안전센터의 전문기술과 첨단 측정기로 방사능에 오염된 침대뿐 아니라 토양, 암석,건축자재 등 어디에나 존재하는 1군 발암물질 라돈 방사능을 측정해 드립니다.</p>
+            <div class="Rn_Btn">
+                <a href="#">라돈 방사능 측정 신청하기</a>
+            </div>
+        </div>
+    </div>
+    <!--banner01 & hotIssue-->
+    
+    <!--banner02 & consult-->
+    <div class="consult">
+        <div class="consult_Box"><a href="#">무료 방문 상담 신청</a></div>
+        <div class="consult_Box"><a href="#">견적 상담 신청</a></div>
+        <div class="consult_Box"><a href="#">즉시 계약 신청</a></div>
+    </div>
+    <!--banner02 & consult-->
+    
+    <!--banner03 & iconBox-->
+    <div class="iconBox">
+        
+        <!--visit-->
+        <div class="visit_Box">
+            <h4>처음방문하셨나요?</h4>
+            <div class="box00">
+                <a href="#">
+                    <div class="imgB">
+                        <img src="images/main_images/firstVisit_icon01.png"/></div>
+                    <p>세스코<br/>서비스</p>
+                </a>
+            </div>
+            <div class="box00">
+                <a href="#">
+                    <div class="imgB">
+                        <img src="images/main_images/firstVisit_icon02.png"/></div>
+                    <p>우리집<br/>위생체크</p>
+                </a>
+            </div>
+        </div>
+        <!--visit-->
+        
+        <!--shop-->
+        <div class="shop_Box">
+            <ul>
+                <li>S</li>
+                <li>H</li>
+                <li>O</li>
+                <li>P</li>
+            </ul>
+            <div class="box00">
+                <a href="#">
+                    <div class="imgB">
+                    <img src="images/main_images/shop_icon01.png"/></div>
+                        <p>SHOP<br/>바로가기</p>
+                </a>
+            </div>
+        </div>
+        <!--shop-->
+        
+        <!--need-->
+        <div class="need_Box">
+            <h4>세스코가 필요한 곳은 어딘가요?</h4>
+            <div class="box00 box_line">
+                <a href="#">
+                    <div class="imgB">
+                        <img src="images/main_images/whereNeed_icon01.png"/></div>
+                    <p class="one_line">가정집</p>
+                </a>
+            </div>
+            <div class="box00">
+                <a href="#">
+                    <div class="imgB">
+                        <img src="images/main_images/whereNeed_icon02.png"/></div>
+                    <p class="one_line">요식업체</p>
+                </a>
+            </div>
+            <div class="box00">
+                <a href="#">
+                    <div class="imgB">
+                        <img src="images/main_images/whereNeed_icon03.png"/></div>
+                    <p class="one_line">일반사업체</p>
+                </a>
+            </div>
+        </div>
+        <!--need-->
+    </div>
+    <!--banner03 & iconBox-->
+    
+    <!--banner04 & analysis-->
+    <div class="analysis">
+        
+        <!--kolas_intro-->
+        <div class="kolas_img">
+            <img src="images/main_images/kolasMARK.png"/>
+        </div>
+        <div class="analy_txt">
+            <h3>세스코 이물 분석 센터</h3>
+            <h4>CESCO FOREIGN METARIAL ANALYSIS CENTER</h4>
+            <p>국내 유일 ‘이물’ 전문 분석 서비스</p>
+            <span>국제 공인시험기관 인정</span>
+        </div>
+        <!--kolas_intro-->
+        
+        <div class="mar0auto">
+        <!--animal-->
+        <div class="analy_icon">
+            <div class="analy_icon_img">
+                <img src="images/main_images/animal_icon.png"/>
+            </div>
+            <div class="icon_txt">
+                <h4>동물성 이물</h4>
+                <span></span>
+                <p>곤충, 동물사체, 모발, 분변 등</p>
+            </div>  
+        </div>
+        <!--animal-->
+        <!--plant-->
+        <div class="analy_icon">
+            <div class="analy_icon_img">
+                <img src="images/main_images/plant_icon.png"/>
+            </div>
+            <div class="icon_txt">
+                <h4>식물성 이물</h4>
+                    <span></span>
+                <p>탄화물, 식물조직, 섬유 등</p>
+            </div>
+        </div>
+        <!--plant-->
+        <!--metal-->
+        <div class="analy_icon">
+            <div class="analy_icon_img">
+                <img src="images/main_images/metal_icon.png"/>
+            </div>
+            <div class="icon_txt">
+                <h4>광물성 이물</h4>
+                <span></span>
+                <p>금속, 조각, 유리, 고무, 합성수지 등</p></div>
+        </div>
+        <!--metal-->
+        </div>
+        
+        <div class="analy_btn">
+            <a href="#">
+                이물 분석 신청하기
+            </a>
+        </div>
+    </div>
+    <!--banner04 & analysis-->
+    
+    <!--banner05 & cscenter-->
+    <div class="csCenter">
+        <a href="#">
+            <div class="csC_txt">
+                <h2>고객센터 1588-1119</h2>
+                <p>평일 (08:30 ~ 18:00), 토요일 (08:00 ~ 15:00)<br/>일요일, 공휴일 (휴무)</p>
+            </div>
+        </a>
+    </div>
+    <!--banner05 & cscenter-->
+</div>
+<!--container-->
+    
+<!--footer-->
+<footer id="footer">
+        <div class="footerMenu cf">
+        <div class="f_menu01"><a href="#">REVIEW</a></div>
+        <div class="f_menu02"><a href="#">QnA</a></div>
+        <div class="f_menu03"><a href="#">TOP</a></div>
+    </div>
+    <div class="footerBottom">
+        <ul class="bottom_top">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">서비스이용약관</a></li>
+            <li><a href="sub/sub_map.html">찾아오시는길</a></li>
+        </ul>
+        <ul class="bottom_bottom">
+            <li>(주) 세스코</li>
+            <li>대표이사 : 전찬혁</li>
+            <li>주소 : 서울시 강동구 상일로 10길 46번지 세스코 터치센터</li>
+            <li>사업자등록번호 : 212 - 81 - 05946</li>
+            <li>통신판매업신고번호 : 제2008 - 서울강동 - 0240호</li>
+            <li>FAX : (02)488 - 1720</li>
+        </ul>
+        <h5>&copy;CESCO. ALL RIGHTS RESERVED.</h5>
+    </div>
+</footer>
+<!--footer-->
+</div>
+<!--END-->    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
